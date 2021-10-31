@@ -1,0 +1,83 @@
+.feedsInput_container{
+	border-radius: 10px;
+	background-color: #fcfcfc;
+
+}
+.feedsinput_writeplace{
+	display: flex;
+
+}
+.feedscontainer{
+	flex: 0.5;
+	margin-top: 14px;
+	margin-left: 20px;
+	
+}
+.feedsinput_writeplace .avatar{
+	font-size: 4rem;
+	color: #afb0b1;
+	margin-top: 14px;
+	margin-left: 8px;
+}
+.feedsinputs_textcontainer{
+	flex: 0.9;
+}
+.feed_input{
+	outline: none;
+	margin-top: 10px;
+	border: 1px solid #afb0b1;
+	width: 100%;
+	height: 35px;
+	padding: 10px;
+	border-radius: 50px;
+	transition: 0.4s;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.feed_input:hover{
+	background-color: #e7e8e8;
+}
+.feeds_option{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 10px;	
+	padding-bottom: 14px;
+}
+.feeds_item{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.2s;
+	
+}
+.feeds_item:hover{
+	background-color: #e7e8e8;	
+}
+.f_icon{
+	font-size: 20px;
+}
+.feedpostcontainer{
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	/* align-items: center; */
+}
+.fp-header{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.fp_heading{
+	margin-top: 3px;
+	margin-left: 14px;
+}
+.fp_heading p{
+	font-size: 12px;
+	color: #838383;
+}
+.message{
+	margin-top: 16px;
+	margin-left: 24px;
+}

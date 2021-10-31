@@ -1,0 +1,42 @@
+.LoginContainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.LoginContainer > img{
+	object-fit: contain;
+	height: 140px;
+}
+.LoginContainer > form{
+	display: flex;
+	flex-direction: column;
+}
+.LoginContainer > form > input{
+	width: 250px;
+	height: 25px;
+	margin-bottom: 15px;
+	padding: 5px;
+	outline: none;
+	background-color: #eef3fe;
+	border: none;
+	border-radius: 5px;
+	color: #535252;
+}
+.LoginContainer > button{
+	width: 120px;
+	/* height: 25px; */
+	margin-bottom: 15px;
+	color: #fff;
+	padding: 10px;
+	background-color: #2867b2;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.register_link{
+	color: #2867b2;
+	cursor: pointer;
+	font-weight: bold;
+}
